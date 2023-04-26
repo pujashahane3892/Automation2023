@@ -10,6 +10,7 @@ public class dataproviderAnnotations {
 		return new Object[][] {{"pooja"},{"Mayur"},{"Pari"},{"Ayush"}};
 		
 	}
+	
 	@Test(dataProvider = "dp")
 	public void TC1(String value)
 	{System.out.println(value);
